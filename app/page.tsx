@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+
 import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
@@ -20,7 +20,7 @@ export default function Home() {
         {/* Text Section */}
         <div className="text-center">
           <h1 className="text-6xl font-bold">
-            Hi! I'm <span className="text-yellow-500">Jake</span>,
+            Hi! I&apos;m <span className="text-yellow-500">Jake</span>,
           </h1>
           <p className="text-3xl text-white-700 mt-2">
             a <span className="text-yellow-500">Full-stack Developer</span>
